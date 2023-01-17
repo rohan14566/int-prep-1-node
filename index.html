@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Q.1 what is node js</h3>
+    <p>Node. js is a single-threaded, open-source, cross-platform runtime environment for building fast and scalable server-side and networking applications. It runs on the V8 JavaScript runtime engine, and it uses event-driven, non-blocking I/O architecture, which makes it efficient and suitable for real-time applications.</p>
+
+    <h3>Q.2 .What is NPM?</h3>
+    <p>1. NPM stands for the node package manager, npm is used for node
+dependency management.<br>
+2. Most of the time, we use npm as a server-side node dependency tool<br>
+3. NPM gets installed with NodeJs installation. NPM uses nested
+dependencies, so we can use different versions of any module in our code.
+4. Nested dependencies mean that any dependency is again dependent on
+another dependency npm: It is a package manager for the JavaScript
+programming language</p>
+
+    <h3>Q.3 What are the modules in Node.js</h3>
+    <p>In Node.js, Modules are the blocks of encapsulated code that communicate
+with an external application on the basis of their related functionality.<br>
+➔ Modules can be a single file or a collection of multiples files/folders.<br>
+ Modules are of three types:<br>
+1. Core Modules/Internal modules<br>
+2. Local Modules/Custom modules<br>
+3. Third-party Modules<br>
+</p>
+
+    <h3>Q.4 .What is the purpose of the module.exports?</h3>
+    <p>➔ The module.exports is actually a property of the module object in node.js.
+module. Exports is the object that is returned to the require() call.<br>
+➔ By module.exports, we can export functions, objects, and their references
+from one file and can use them in other files by importing them by require()
+method. easy to maintain and manage the code base in different modules.</p>
+
+    <h3>Q.5 .Difference between default export and named export.</h3>
+    <p>Named Exports:<br> Named exports are useful to export several values.
+During the import, it is mandatory to use the same name of the corresponding
+object.<br>
+Named exports allow us to share multiple objects, functions or variables from a
+single file and were introduced with the release of ES2015.<br>
+Default Exports:<br> Default exports are useful to export only a single object, function,
+variable.<br> During the import, we can use any name to import.Exports without a
+default tag are Named exports. Exports with the default tag are Default exports.<br>
+default export:- Using Named and Default Exports at the same time: It is possibl</p>
+
+    <h3>Q.6  How do you import any module in Node.js?</h3>
+    <p>Importing a Module: We need to import the module to use the functions defined in
+the imported module in another file. The result returned by require() is stored in a
+variable which is used to invoke the functions using the dot notation.<br><br>
+const f = require('./func')
+</p>
+
+    <h3>Q.7 . What are the different types of HTTP requests?</h3>
+    <p>GET: GET request is used to read/retrieve data from a web server. <br>
+POST: POST request is used to send data (file, form data, etc.) to the server.<br>
+PUT: A PUT request is used to modify the data on the server. It replaces the entire
+content at a particular location with data that is passed in the body payload.<br>
+DELETE: A DELETE request is used to delete the data on the server at a specified
+location.
+</p>
+
+    <h3>Q.8 .Explain the concept of middleware in Node.js</h3>
+    <p>Middleware has the access to the request object, responses object, and next, it can
+process the request before the server send a response. An Express-based
+application is a series of middleware function calls.<br>
+The next() function in the express is responsible for calling the next middleware
+function if there is one.
+
+</p>
+</body>
+</html>
